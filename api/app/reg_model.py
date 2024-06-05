@@ -14,4 +14,4 @@ def regression_model(data):
     predictions = model.predict(data)
 
     pred = [float(x) for x in predictions]
-    return predictions
+    return pred
