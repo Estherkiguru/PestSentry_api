@@ -23,7 +23,7 @@ _logger = get_logger(logger_name = __name__)
 
 @prediction_app.route('/', methods=['GET'])
 def home():
-    if request.method == 'GET':
+    #if request.method == 'GET':
         _logger.info('health status OK')
         return redirect(url_for('prediction_app.login'))
 
