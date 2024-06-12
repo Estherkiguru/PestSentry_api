@@ -7,7 +7,7 @@ Pestsentry is an API designed for detecting pesticide residues in agricultural p
 
 **Deployed Site:** https://pestsentry-api.onrender.com
 
-**Project Blog article:** 
+**Project Blog article:** https://www.linkedin.com/posts/esther-kiguru-wambui_pestsentry-introduction-pestsentry-is-an-activity-7206647867128623104-WYBQ?utm_source=share&utm_medium=member_ios
 
 **LinkedIn:** http://linkedin.com/in/esther-kiguru-wambui
 
