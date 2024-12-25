@@ -156,7 +156,7 @@ def predict():
                         return render_template('error_page.html')
                     
                 
-                # Handle regression model prediction for CSV files
+                # Handle regression prediction model for CSV files
                 elif file_extension =="csv" and model_type=="regression":
                     df3 = pd.read_csv(file)
                     df3 = df3.iloc[:, 1:].T
@@ -175,7 +175,7 @@ def predict():
                     # Handle the case where the regression_model returns None
                         return render_template('error_page.html')
                 
-                # Handle regression model prediction for XLSX files
+                # Handle regression prediction model for XLSX files
                 elif file_extension =="xlsx" and model_type == 'regression':
                     df4 = pd.read_excel(file)
                     
